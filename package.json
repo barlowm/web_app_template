@@ -1,0 +1,61 @@
+{
+  "name": "web_app_template",
+  "version": "1.0.0",
+  "description": "Base for simple web applications with back end processes in NodeJS. Includes JSON Schema Validation with tv4 (tiny validator)",
+  "main": "index.html",
+  "scripts": {
+    "setup": "npm install npm -g& npm install gulp-cli -g& npm install gulp -g& npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runit": "gulp build& gulp runit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barlowm/web_app_template.git"
+  },
+  "author": "Mike Barlow <barlowm@gmail.com> (http://mwbarlow.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barlowm/web_app_template/issues"
+  },
+  "homepage": "https://github.com/barlowm/web_app_template#readme",
+
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "chai": "^4.1.2",
+    "chai-json-schema": "^1.5.0",
+    "del": "^3.0.0",
+    "dotenv": "^6.0.0",
+    "fs-extra": "^7.0.0",
+    "gulp": ">=3.9.1 <4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^3.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-help": "^1.6.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-prettier-plugin": "^1.3.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.3",
+    "prettier": "^1.14.0",
+    "require-dir": "^1.0.0",
+    "tv4": "^1.3.0",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "Not_Needed": {
+    "gulp-filelog": "^0.4.1",
+    "gulp-dest": "^0.2.3",
+    "gulp-prettier": "^2.0.0",
+    "gulp-lint": "0.0.1",
+    "prettier": "^1.13.7",
+    "eslint-plugin-json": "*"
+  },
+
+  "dependencies": {
+    "browser-sync": "^2.26.0",
+    "dotenv-safe": "^6.0.0",
+    "jquery": "^3.3.1",
+    "json-schema-generator": "^2.0.6",
+    "npm": "^6.3.0",
+    "ramda": "^0.25.0"
+  }
+}
